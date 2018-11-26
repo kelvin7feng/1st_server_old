@@ -38,7 +38,7 @@ public:
 	void OnTimerClose(uv_handle_t * handle);
 	void OnConnectionClose(uv_handle_t * handle);
 
-	void DeleteClient(TCPSession * session);
+	void Release(TCPSession * session);
 
 private:
 	session_map_t open_sessions;
