@@ -168,7 +168,6 @@ void LogicServer::RemoveClient(uv_stream_t* client)
 	auto connection_pos = open_sessions.find(client);
 	if (connection_pos != open_sessions.end())
 	{
-		//stop timer: crash !!!
 		uv_close((uv_handle_t*)connection_pos->second->activity_timer,
 			[](uv_handle_t* handle)
 		{
@@ -186,15 +185,34 @@ void LogicServer::RemoveClient(uv_stream_t* client)
 
 void LogicServer::OnTimerClose(uv_handle_t* handle)
 {
-	active_timers.erase((uv_timer_t*)handle);
+	auto timer_pos = active_timers.find((uv_timer_t*)handle);
+	if (timer_pos != active_timers.end())
+	{
+		uv_stream_t* client = timer_pos->second;
+		auto connection_pos = open_sessions.find((uv_stream_t*)client);
+		if (connection_pos != open_sessions.end()) {
+			connection_pos->second->DelRef();
+			if (connection_pos->second->CanRelease()) {
+				Release(connection_pos->second);
+			}
+		}
+	}
 }
 
 void LogicServer::OnConnectionClose(uv_handle_t* handle)
 {
-	fprintf(stdout, "Release connection of client...\r\n");
 	auto connection_pos = open_sessions.find((uv_stream_t*)handle);
 	if (connection_pos != open_sessions.end()) {
-		delete connection_pos->second;
+		connection_pos->second->DelRef();
+		if (connection_pos->second->CanRelease()) {
+			Release(connection_pos->second);
+		}
 	}
-	open_sessions.erase((uv_stream_t*)handle);
+}
+
+void LogicServer::Release(TCPSession* session)
+{
+	active_timers.erase(session->activity_timer);
+	open_sessions.erase((uv_stream_t*)session->connection);
+	delete session;
 }
