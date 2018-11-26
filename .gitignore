@@ -28,7 +28,6 @@
 *.pdb
 
 # Executables
-*.exe
 *.out
 *.app
 
