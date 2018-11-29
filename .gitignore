@@ -30,6 +30,7 @@
 # Executables
 *.out
 *.app
+*.exe
 
 # Visual Studio
 .vs
@@ -37,3 +38,7 @@
 # Log
 *.tlog
 *.log
+
+# Temp File
+*.idb
+*.ilk
