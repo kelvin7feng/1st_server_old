@@ -1,0 +1,14 @@
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/libprotobuf-lite.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/protoc.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/libprotoc.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/libprotobuf.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/lite-test.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/gmock_main.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/gmock.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/tests.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/test_plugin.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/lite-arena-test.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/check.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/INSTALL.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/ALL_BUILD.dir
+C:/Users/kelvin/source/repos/server/third_party/protobuf-3.6.1/proj_win32/CMakeFiles/ZERO_CHECK.dir

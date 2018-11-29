@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\lite_arena_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\arena_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\map_lite_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\test_util_lite.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\map_lite_unittest.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\unittest_import_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\unittest_import_public_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\unittest_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\src\google\protobuf\unittest_no_arena_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\proj_win32\CMakeFiles\092290f39244a8fa7917ee4b624dfbfc\map_lite_unittest.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\proj_win32\CMakeFiles\092290f39244a8fa7917ee4b624dfbfc\unittest_import_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\proj_win32\CMakeFiles\092290f39244a8fa7917ee4b624dfbfc\unittest_import_public_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\proj_win32\CMakeFiles\092290f39244a8fa7917ee4b624dfbfc\unittest_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\proj_win32\CMakeFiles\092290f39244a8fa7917ee4b624dfbfc\unittest_no_arena_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{137E1A45-2740-3A2B-A97C-D3A4160DDE86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8C828E8F-37E6-341D-81FE-F7F8F54B545B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

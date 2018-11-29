@@ -70,20 +70,23 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>..\..\third_party\libuv-1.x\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\..\third_party\libuv-1.x\include;..\..\third_party\protobuf\src;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>
+      </SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>C:\Users\kelvin\source\repos\server\bin\win\libuv.lib;Ws2_32.lib;Iphlpapi.lib;Userenv.lib;Psapi.Lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>.\..\..\bin\win\libuv.lib;.\..\..\bin\win\libprotobufd.lib;.\..\..\bin\win\libprotobuf-lited.lib;.\..\..\bin\win\libprotocd.lib;Ws2_32.lib;Iphlpapi.lib;Userenv.lib;Psapi.Lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Link>
-      <IgnoreSpecificDefaultLibraries>LIBCMTD</IgnoreSpecificDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -125,10 +128,12 @@
   <ItemGroup>
     <ClCompile Include="..\..\src\logic_server.cpp" />
     <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\message.pb.cc" />
     <ClCompile Include="..\..\src\tcp_session.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\logic_server.h" />
+    <ClInclude Include="..\..\src\message.pb.h" />
     <ClInclude Include="..\..\src\tcp_session.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

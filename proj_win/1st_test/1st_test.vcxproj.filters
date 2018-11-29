@@ -24,12 +24,18 @@
     <ClCompile Include="..\..\src\tcp_session.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\message.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\logic_server.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\tcp_session.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\message.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

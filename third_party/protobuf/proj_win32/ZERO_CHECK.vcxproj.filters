@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kelvin\source\repos\server\third_party\protobuf-3.6.1\proj_win32\CMakeFiles\4f4dadedff029c829ea5b2e70befc62e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{137E1A45-2740-3A2B-A97C-D3A4160DDE86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
